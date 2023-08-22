@@ -1,0 +1,10 @@
+
+<!ELEMENT cursos (curso+)>
+
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT coordenador (nome)>
+
+<!ELEMENT curso (nome, coordenador)>
+
+<!ATTLIST curso id CDATA #REQUIRED>
+<!ATTLIST coordenador id CDATA #REQUIRED>

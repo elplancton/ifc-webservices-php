@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!DOCTYPE cursos SYSTEM "cursos.dtd">
+<cursos>
+  <curso id="1">
+    <nome/>
+    <coordenador id="5">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="2">
+    <nome/>
+    <coordenador id="3">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="3">
+    <nome/>
+    <coordenador id="2">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="4">
+    <nome/>
+    <coordenador id="6">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="5">
+    <nome/>
+    <coordenador id="5">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="7">
+    <nome/>
+    <coordenador id="6">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="8">
+    <nome/>
+    <coordenador id="5">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="9">
+    <nome/>
+    <coordenador id="5">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="10">
+    <nome/>
+    <coordenador id="5">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="11">
+    <nome/>
+    <coordenador id="3">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="12">
+    <nome/>
+    <coordenador id="3">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="13">
+    <nome/>
+    <coordenador id="4">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="14">
+    <nome/>
+    <coordenador id="3">
+      <nome/>
+    </coordenador>
+  </curso>
+  <curso id="15">
+    <nome/>
+    <coordenador id="2">
+      <nome/>
+    </coordenador>
+  </curso>
+</cursos>

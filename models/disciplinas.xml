@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE disciplinas SYSTEM "disciplinas.dtd">
+
+<disciplinas curso_id="1" curso_nome="Bacharelado em Sistemas de Informação">
+    <disciplina id="1">
+        <codigo>idaos</codigo>
+        <nome>diaso</nome>
+        <carga>8897</carga>
+        <ementa>jdioasjdosiaj</ementa>
+        <semestre>9</semestre>
+    </disciplina>
+</disciplinas>
