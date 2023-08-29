@@ -1,88 +1,102 @@
 <?xml version="1.0"?>
 <!DOCTYPE cursos SYSTEM "cursos.dtd">
 <cursos>
-  <curso id="1">
-    <nome/>
-    <coordenador id="5">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="2">
-    <nome/>
-    <coordenador id="3">
-      <nome/>
-    </coordenador>
-  </curso>
   <curso id="3">
-    <nome/>
+    <nome>T&#xE9;cnico em Inform&#xE1;tica Integrado</nome>
+    <semestres>6</semestres>
     <coordenador id="2">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="4">
-    <nome/>
-    <coordenador id="6">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="5">
-    <nome/>
-    <coordenador id="5">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="7">
-    <nome/>
-    <coordenador id="6">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="8">
-    <nome/>
-    <coordenador id="5">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="9">
-    <nome/>
-    <coordenador id="5">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="10">
-    <nome/>
-    <coordenador id="5">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="11">
-    <nome/>
-    <coordenador id="3">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="12">
-    <nome/>
-    <coordenador id="3">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="13">
-    <nome/>
-    <coordenador id="4">
-      <nome/>
-    </coordenador>
-  </curso>
-  <curso id="14">
-    <nome/>
-    <coordenador id="3">
-      <nome/>
+      <nome>&#xC2;ngelo Frozza</nome>
     </coordenador>
   </curso>
   <curso id="15">
-    <nome/>
+    <nome>sdfsdfdsfdsf</nome>
+    <semestres>6</semestres>
     <coordenador id="2">
-      <nome/>
+      <nome>&#xC2;ngelo Frozza</nome>
+    </coordenador>
+  </curso>
+  <curso id="2">
+    <nome>Bacharelado em Sistemas de Informa&#xE7;&#xE3;o</nome>
+    <semestres>8</semestres>
+    <coordenador id="3">
+      <nome>Daniel Anderle</nome>
+    </coordenador>
+  </curso>
+  <curso id="11">
+    <nome>12</nome>
+    <semestres>2</semestres>
+    <coordenador id="3">
+      <nome>Daniel Anderle</nome>
+    </coordenador>
+  </curso>
+  <curso id="12">
+    <nome>45</nome>
+    <semestres>2</semestres>
+    <coordenador id="3">
+      <nome>Daniel Anderle</nome>
+    </coordenador>
+  </curso>
+  <curso id="14">
+    <nome>Curso do Rafael</nome>
+    <semestres>5</semestres>
+    <coordenador id="3">
+      <nome>Daniel Anderle</nome>
+    </coordenador>
+  </curso>
+  <curso id="13">
+    <nome>asda</nome>
+    <semestres>3</semestres>
+    <coordenador id="4">
+      <nome>Daniel Varela</nome>
+    </coordenador>
+  </curso>
+  <curso id="1">
+    <nome>Tecnologia em Sistemas para Internet - TSI</nome>
+    <semestres>6</semestres>
+    <coordenador id="5">
+      <nome>Rafael Speroni</nome>
+    </coordenador>
+  </curso>
+  <curso id="5">
+    <nome>PROEJA</nome>
+    <semestres>6</semestres>
+    <coordenador id="5">
+      <nome>Rafael Speroni</nome>
+    </coordenador>
+  </curso>
+  <curso id="8">
+    <nome>inserido</nome>
+    <semestres>6</semestres>
+    <coordenador id="5">
+      <nome>Rafael Speroni</nome>
+    </coordenador>
+  </curso>
+  <curso id="9">
+    <nome>inserido</nome>
+    <semestres>6</semestres>
+    <coordenador id="5">
+      <nome>Rafael Speroni</nome>
+    </coordenador>
+  </curso>
+  <curso id="10">
+    <nome>teste</nome>
+    <semestres>2</semestres>
+    <coordenador id="5">
+      <nome>Rafael Speroni</nome>
+    </coordenador>
+  </curso>
+  <curso id="4">
+    <nome>Bacharelado em Agronomia</nome>
+    <semestres>8</semestres>
+    <coordenador id="6">
+      <nome>Lidiane Visintin</nome>
+    </coordenador>
+  </curso>
+  <curso id="7">
+    <nome>teste2</nome>
+    <semestres>4</semestres>
+    <coordenador id="6">
+      <nome>Lidiane Visintin</nome>
     </coordenador>
   </curso>
 </cursos>

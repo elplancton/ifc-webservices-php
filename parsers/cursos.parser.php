@@ -3,12 +3,9 @@
 function CursosParser($cursos)
 {
     $dom = new DOMDocument();
-    $arq = "cursos.xml";
 
-    //criar o doctype - DTD
     $imp = new DOMImplementation();
-    $dtd = $imp->createDocumentType('cursos', '', 'cursos.dtd');
-    // Creates a DOMDocument instance
+    $dtd = $imp->createDocumentType('cursos', '', 'core/cursos.dtd');
     $dom = $imp->createDocument("", "", $dtd);
     $dom->formatOutput = true;
 
@@ -25,8 +22,11 @@ function CursosParser($cursos)
         $atr->value = $curso['id'];
         $cursoEl->appendChild($atr);
 
-        $nomeCurso = $dom->createElement('nome', $curso['name']);
+        $nomeCurso = $dom->createElement('nome',   htmlspecialchars($curso['nome'], ENT_NOQUOTES, "UTF-8"));
         $cursoEl->appendChild($nomeCurso);
+
+        $semestresCurso = $dom->createElement('semestres', $curso['semestres']);
+        $cursoEl->appendChild($semestresCurso);
 
         $coordenadorCurso = $dom->createElement('coordenador');
         $cursoEl->appendChild($coordenadorCurso);
@@ -35,9 +35,9 @@ function CursosParser($cursos)
         $coordenadorId->value = $curso['id_coordenador'];
         $coordenadorCurso->appendChild($coordenadorId);
 
-        $coordenadorNome = $dom->createElement('nome', $curso['coordenador_nome']);
+        $coordenadorNome = $dom->createElement('nome', html_entity_decode($curso['coordenador_nome'], ENT_QUOTES));
         $coordenadorCurso->appendChild($coordenadorNome);
     }
 
-    $dom->save($arq);
+    return $dom->saveHTML();
 }
