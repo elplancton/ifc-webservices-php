@@ -14,5 +14,4 @@ $sql = "select id, nome, semestre, id_coordenador, coordenador.name coordenador_
 $stmt = $conexao->query($sql);
 #transforma o resultado da consulta em um array de objs
 $cursos = $stmt->fetchAll(PDO::FETCH_ASSOC);
-va
 CursosParser($cursos);
