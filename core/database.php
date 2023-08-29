@@ -3,10 +3,10 @@
 
 class Database
 {
-    private $host = 'localhost';
-    private $db = 'ifc__webservices-js';
-    private $user = 'root';
-    private $pass = '';
+    private $host = 'www.db4free.net';
+    private $db = 'ifc__webservices';
+    private $user = 'ifc__webservices';
+    private $pass = 'ifc__webservices';
 
     public function connect()
     {
