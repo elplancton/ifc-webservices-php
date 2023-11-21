@@ -6,7 +6,8 @@
 <!ELEMENT carga (#PCDATA)>
 <!ELEMENT ementa (#PCDATA)>
 <!ELEMENT semestre (#PCDATA)>
-<!ELEMENT disciplina (codigo, nome, carga, ementa, semestre)>
+<!ELEMENT curso (nome)>
+<!ELEMENT disciplina (codigo, nome, carga, ementa, semestre, curso)>
 
 
 <!ATTLIST disciplina id CDATA #REQUIRED>

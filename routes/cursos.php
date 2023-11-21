@@ -1,7 +1,7 @@
 <?php
 #importa a classe
-require_once "core/database.php";
-require_once "parsers/cursos.parser.php";
+require_once "../core/database.php";
+require_once "../parsers/cursos.parser.php";
 
 $db = new Database();
 $conexao = $db->connect();

@@ -5,7 +5,7 @@ function CursosParser($cursos)
     $dom = new DOMDocument();
 
     $imp = new DOMImplementation();
-    $dtd = $imp->createDocumentType('cursos', '', 'core/cursos.dtd');
+    $dtd = $imp->createDocumentType('cursos', '', 'models/cursos.dtd');
     $dom = $imp->createDocument("", "", $dtd);
     $dom->formatOutput = true;
 

@@ -8,5 +8,8 @@
         <carga>8897</carga>
         <ementa>jdioasjdosiaj</ementa>
         <semestre>9</semestre>
+        <curso>
+            <nome>Okay</nome>
+        </curso>
     </disciplina>
 </disciplinas>

@@ -1,6 +1,6 @@
 <?php
 
-function CursoParser($professores)
+function ProfessoresParser($professores)
 {
     $dom = new DOMDocument();
     $arq = "professores.xml";
@@ -17,27 +17,20 @@ function CursoParser($professores)
     //posiciono o elemento
     $dom->appendChild($professoresEl);
 
-    foreach ($professores as $curso) {
-        $cursoEl = $dom->createElement('curso');
-        $professoresEl->appendChild($cursoEl);
+    foreach ($professores as $professor) {
+        $professorEl = $dom->createElement('professor');
+        $professoresEl->appendChild($professorEl);
 
         $atr = $dom->createAttribute('id');
-        $atr->value = $curso['id'];
-        $cursoEl->appendChild($atr);
+        $atr->value = $professor['id'];
+        $professorEl->appendChild($atr);
 
-        $nomeCurso = $dom->createElement('nome', $curso['name']);
-        $cursoEl->appendChild($nomeCurso);
+        $nomeprofessor = $dom->createElement('nome', $professor['nome']);
+        $professorEl->appendChild($nomeprofessor);
 
-        $coordenadorCurso = $dom->createElement('coordenador');
-        $cursoEl->appendChild($coordenadorCurso);
-
-        $coordenadorId = $dom->createAttribute('id');
-        $coordenadorId->value = $curso['id_coordenador'];
-        $coordenadorCurso->appendChild($coordenadorId);
-
-        $coordenadorNome = $dom->createElement('nome', $curso['coordenador_nome']);
-        $coordenadorCurso->appendChild($coordenadorNome);
+        $emailProfessor = $dom->createElement('email', $professor['email']);
+        $professorEl->appendChild($emailProfessor);
     }
 
-    $dom->save($arq);
+    return $dom->saveHTML();
 }
