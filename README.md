@@ -1,5 +1,7 @@
 # Atividade prática: Laboratório - XML e DTD
 
+Aluno: Rafael Jackson Andrade
+
 Para testar rode o WAMP na pasta raiz.
 
 Importe o arquivo `dump.db.sql` para seu banco.
